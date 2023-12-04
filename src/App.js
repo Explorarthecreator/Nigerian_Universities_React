@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
+import './universities.css'
+import UniversityList from "./components/UniversityList";
+import UniversityData from "./data/UniversityData";
+import { UniversityProvider } from './components/context/UniversityContext';
 
 function App() {
+
   return (
+    <UniversityProvider>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>
+        List of All Nigerian Univerisities
+      </h1>
+      <section className='main'>
+        <UniversityList/>
+      </section>
+
     </div>
+    </UniversityProvider>
   );
 }
 
