@@ -9,17 +9,17 @@ body{
 .main{
     width: 95%;
     margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-top: 100px;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* gap: 10px; */
+    margin-top: 50px;
     justify-content: center;
 }
 .bi{
     width: 80%;
 }
 .university-card{
-    width: 30%;
+    /* width: 30%; */
     padding: 5px;
     border: 1px solid #D5AFFF;
     position: relative;
@@ -66,15 +66,15 @@ body{
 }
 .university-card span{
     background-color: #D5AFFF;
-    width: 40px;
-    height: 40px;
+    /* width: 50px; */
+    /* height: 50px; */
     display: block;
-    position: absolute;
-    /* bottom: -15; */
-    /* right: -15; */
+    /* position: absolute; */
+    /* bottom: 0;
+    right: 0; */
     border-radius: 50%;
 }
-
+/* 
 @media screen and (min-width:800px){
     .main{
         width: 80%;
@@ -90,7 +90,7 @@ body{
         padding: 0;
         font-weight: 400;
         color: #E55604;
-        /* text-decoration: underline; */
+        text-decoration: underline;
     }
     .university-card span{
         width: 70px;
@@ -98,8 +98,8 @@ body{
         bottom: -25;
         right: -25;
     }
-}
-@media screen and (min-width:1024px) {
+} */
+/* @media screen and (min-width:1024px) {
     .main{
         width: 80%;
         gap: 15px 25px;
@@ -119,7 +119,7 @@ body{
         padding: 0;
         font-weight: 400;
         color: #E55604;
-        /* text-decoration: underline; */
+        text-decoration: underline;
     }
     .university-card span{
         width: 70px;
@@ -127,4 +127,4 @@ body{
         bottom: -25;
         right: -25;
     }
-}
+} */
