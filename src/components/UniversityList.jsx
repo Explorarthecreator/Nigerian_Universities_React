@@ -14,13 +14,13 @@ function UniversityList({universitylist}) {
         )
     }
   return (
-    <>
+    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2">
         {
             universities.map(item =>(
                 <UniversityItem key={item.id} item={item}/>
             ))
         }
-    </>
+    </div>
   )
 }
 

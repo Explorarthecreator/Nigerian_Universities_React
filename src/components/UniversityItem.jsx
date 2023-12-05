@@ -9,7 +9,7 @@ function UniversityItem({item}) {
         <p>
             {item.abbreviation}
         </p>
-        <span></span>
+        <span className=" absolute -bottom-6 -right-5 h-14 w-14 "></span>
     </div>
   )
 }
